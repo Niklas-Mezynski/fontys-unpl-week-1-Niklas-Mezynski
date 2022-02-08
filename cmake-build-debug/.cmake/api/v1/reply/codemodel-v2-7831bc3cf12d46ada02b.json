@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unpl_week_1_Niklas_Mezynski",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "unpl_week_1_Niklas_Mezynski::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unpl_week_1_Niklas_Mezynski-Debug-2e72fa63a409449e26e5.json",
+					"name" : "unpl_week_1_Niklas_Mezynski",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nikla/Documents/Uni/Semester_4/C/unpl-week-1-Niklas-Mezynski/cmake-build-debug",
+		"source" : "C:/Users/nikla/Documents/Uni/Semester_4/C/unpl-week-1-Niklas-Mezynski"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
