@@ -15,7 +15,7 @@ int main() {
 
     int arr2[1] = {0};
     sumArray(arr2, 1, &result);
-    printf("Scenario 2 - The sum of the array is: %d\n", result); // Sum should be 0
+    printf("Scenario 3 - The sum of the array is: %d\n", result); // Sum should be 0
 
     return 0;
 }
