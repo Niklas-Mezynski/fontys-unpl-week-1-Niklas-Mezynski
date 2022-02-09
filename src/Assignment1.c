@@ -16,7 +16,7 @@ int main() {
     int arraySize = sizeof(arr) / sizeof(arr[0]);
     int arraySize2 = (&arr)[1] - arr;
     printf("Scenario 1, arraySize calculation method 1 - Number of times the number %d appears in the array: %d\n", n, numOfTimesInArray(arr, n, arraySize));
-    printf("Scenario 1, arraySize calculation method 2 - Number of times the number %d appears in the array: %d\n", n, numOfTimesInArray(&arr, n, arraySize2));
+    printf("Scenario 1, arraySize calculation method 2 - Number of times the number %d appears in the array: %d\n", n, numOfTimesInArray(arr, n, arraySize2));
     //------------
     int arr2[0] = {};
     int n2 = 0;
