@@ -71,9 +71,9 @@ int date_decode(unsigned long int input, int *year, int *month, int *day) {
     //Shifting only bits filled with one to the proper position
     //Then using the & operator to get the right bits from input
     //Then shifting it back to its proper position
-    *year = ((4095 << 9) & input) >> 9;
-    *month = ((15 << 5) & input) >> 5;
-    *day = (31) & input;
+    *year = ((0x0FFF << 9) & input) >> 9;
+    *month = ((0x000F << 5) & input) >> 5;
+    *day = (0x001F) & input;
 }
 
 void printInBinary(unsigned long int number)
